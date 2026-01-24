@@ -56,5 +56,17 @@ Các trạng thái:
 
 ## **📌 Cách sử dụng repo**
 
-Câp nhật tiến độ bằng icon trạng thái
+1. Clone repo
+```bash
+git clone https://github.com/username/data-science-foundations.git
+```
+2. Mở notebook và học theo từng chủ đề
+3. Cập nhật tiến độ bằng icon trạng thái
 
+--- 
+
+## **👤 Tác giả**
+_Nguyễn Đăng Tiến_
+- GitHub: https://github.com/TienNguyen0712
+
+> ⭐ Nếu repo hữu ích, đừng quên star nhé!
