@@ -1,5 +1,7 @@
 # 📊 ÔN TẬP THỐNG KÊ MÔ TẢ (DESCRIPTIVE STATISTICS)
 
+[Notebook]()
+
 ## 1. Thống kê mô tả là gì?
 **Thống kê mô tả** là tập hợp các phương pháp dùng để:
 - Tóm tắt dữ liệu
