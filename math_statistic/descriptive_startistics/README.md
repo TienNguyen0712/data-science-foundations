@@ -1,6 +1,6 @@
 # 📊 ÔN TẬP THỐNG KÊ MÔ TẢ (DESCRIPTIVE STATISTICS)
 
-[Notebook](math_statistic/descriptive_startistics/descriptive_startistics.ipynb)
+[Notebook](descriptive_startistics.ipynb)
 
 ## 1. Thống kê mô tả là gì?
 **Thống kê mô tả** là tập hợp các phương pháp dùng để:
