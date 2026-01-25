@@ -5,7 +5,7 @@
 ---
 
 ## **📌 Mục tiêu**
-Repo này được lặp ra nhằm mục đích ôn lại các kiến thức, nền tảng trong Data Science (Khoa học dữ liệu). Nhằm gióp tôi (người viết) hiểu và hệ thống lại toàn bộ kiến thức
+Repo này được lặp ra nhằm mục đích ôn lại các kiến thức, nền tảng trong Data Science *(Khoa học dữ liệu)*. Nhằm gióp tôi _(người viết)_ hiểu và hệ thống lại toàn bộ kiến thức
 - Nắm vững kiến thức cốt lõi của Khoa học Dữ liệu
 - Hiểu bản chất thay vì học thuộc
 - Xây dựng nền tảng cho Machine Learning / AI / Data Analyst
