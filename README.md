@@ -22,7 +22,7 @@ Các trạng thái:
 
 | Nền tảng | Mô tả | Trạng thái |
 |------------|----------|---------|
-| **📐 Toán & Thống kê** | [Thống kê mô tả](descriptive_startistics/README.md) | ⭐ |
+| **📐 Toán & Thống kê** | [Thống kê mô tả](math-statistic/descriptive_startistics/README.md) | ⭐ |
 | | [Xác suất cơ bản]() | ⭐ |
 | | [Phân phối chuẩn]() | ⬜ |
 | | [Hypothesis Testing]() | ⬜ |
