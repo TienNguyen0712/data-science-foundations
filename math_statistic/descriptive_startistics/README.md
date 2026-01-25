@@ -38,8 +38,6 @@
 
 ### 🔹 Mean (Trung bình)
 
-x̄ = (x1 + x2 + ... + xn) / n
-
 - Phản ánh giá trị trung tâm
 - Nhạy cảm với ngoại lệ
 
@@ -63,20 +61,13 @@ x̄ = (x1 + x2 + ... + xn) / n
 
 ### 🔹 Range
 
-Range = Max - Min
-
-
 ---
 
 ### 🔹 Variance (Phương sai)
 
-Var = Σ(xi − x̄)² / n
-
 ---
 
 ### 🔹 Standard Deviation (Độ lệch chuẩn)
-
-Std = \sqrt{Variance}
 
 - Cho biết dữ liệu phân tán nhiều hay ít
 - Std càng lớn → dữ liệu càng phân tán
@@ -84,8 +75,6 @@ Std = \sqrt{Variance}
 ---
 
 ### 🔹 Interquartile Range (IQR)
-
-IQR = Q3 - Q1
 
 - Dùng để phát hiện ngoại lệ
 
