@@ -22,7 +22,7 @@ Các trạng thái:
 
 | Nền tảng | Mô tả | Trạng thái |
 |------------|----------|---------|
-| **📐 Toán & Thống kê** | [Thống kê mô tả]() | 🟡 |
+| **📐 Toán & Thống kê** | [Thống kê mô tả]() | ⭐ |
 | | [Xác suất cơ bản]() | ⬜ |
 | | [Phân phối chuẩn]() | ⬜ |
 | | [Hypothesis Testing]() | ⬜ |
@@ -33,7 +33,7 @@ Các trạng thái:
 | | [Matplotlib / Seaborn]() | ⬜ |
 | **🧹 Xử lý dữ liệu (Data Cleaning)** | [Missing values]()  | ⬜ |
 | | [Outliers]() | ⬜ |
-| | [Feature engineering() | ⬜ |
+| | [Feature engineering]() | ⬜ |
 | | [Data normalization]() | ⬜ |
 | **🤖 Machine Learning** | [Supervised vs Unsupervised]() | ⬜ |
 | | [Regression & Classification]() | ⬜ |
