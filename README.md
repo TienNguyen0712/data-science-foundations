@@ -23,7 +23,7 @@ Các trạng thái:
 | Nền tảng | Mô tả | Trạng thái |
 |------------|----------|---------|
 | **📐 Toán & Thống kê** | [Thống kê mô tả]() | ⭐ |
-| | [Xác suất cơ bản]() | ⬜ |
+| | [Xác suất cơ bản]() | ⭐ |
 | | [Phân phối chuẩn]() | ⬜ |
 | | [Hypothesis Testing]() | ⬜ |
 | | [Correlation vs Causation]() | ⬜ |
