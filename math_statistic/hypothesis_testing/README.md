@@ -6,3 +6,15 @@ Biến phân loại	Chi-square
 Không chuẩn	Mann–Whitney
 Trước – sau	Wilcoxon
 Tương quan	Pearson / Spearman
+
+🧠 Data Scientist thường dùng kiểm định khi nào?
+
+A/B testing
+
+Feature selection
+
+Kiểm tra bias dữ liệu
+
+Đánh giá kết quả mô hình
+
+Phân tích hành vi người dùng
