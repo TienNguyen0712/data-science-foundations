@@ -25,7 +25,7 @@ Các trạng thái:
 | **📐 Toán & Thống kê** | [Thống kê mô tả](math_statistic/descriptive_startistics/README.md) | ⭐ |
 | | [Xác suất cơ bản]() | ⭐ |
 | | [Phân phối chuẩn](math_statistic/distribution/README.md) | ⭐ |
-| | [Hypothesis Testing]() | ⭐ |
+| | [Hypothesis Testing](math_statistic/hypothesis_testing/README.md) | ⭐ |
 | | [Correlation vs Causation]() | ⭐ |
 | **🐍 Python & Thư viện** | [Python cơ bản]() | ⬜ |
 | | [NumPy]() | ⬜ |
