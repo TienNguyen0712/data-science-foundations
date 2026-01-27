@@ -3,6 +3,8 @@
 Mục tiêu chính của kiểm định giả thuyết chính là để trả lời cho câu hỏi
 > Sự khác biệt này có thật hay chỉ là ngẫu nhiên
 
+[Notebook](hypothesis_testing.ipynb)
+
 ## 🧪 **Phân loại các kiểm định**
 
 > Data Science không phải là tìm p-value nhỏ,
