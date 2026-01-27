@@ -1,3 +1,6 @@
+> Sự khác biệt này có thật hay chỉ là ngẫu nhiên
+
+
 📊 Bảng chọn nhanh (Data Science style)
 Bài toán	Kiểm định
 So sánh 2 phiên bản	t-test / z-test
@@ -66,3 +69,12 @@ Thống kê kiểm định: đo mức độ khác thường
 p-value: xác suất thấy dữ liệu “lạ như vậy” nếu H₀ đúng
 
 👉 p nhỏ ⇒ dữ liệu khó xảy ra nếu H₀ đúng ⇒ nghi ngờ H₀
+
+Kiểm định	Câu hỏi bản chất
+Z / t	Trung bình lệch bao nhiêu σ?
+Paired t	Mức thay đổi có khác 0?
+F-test	Hai độ phân tán có khác?
+ANOVA	Khác biệt giữa nhóm > nhiễu?
+Mann–Whitney	Nhóm nào thường lớn hơn?
+Wilcoxon	Thay đổi có xu hướng tăng/giảm?
+Kruskal–Wallis	Nhóm nào có hạng cao hơn
