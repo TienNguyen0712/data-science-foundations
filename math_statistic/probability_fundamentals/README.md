@@ -1,4 +1,4 @@
-# **xác suất cơ bản**
+# 📘 **Xác suất cơ bản**
 > Xác suất giúp khoa học dữ liệu mô hình hóa sự không chắc chắn và ra quyết định trong điều kiện thiếu thông tin hoàn hảo
 
 ## 🎯 **Mục tiêu của xác suất**
