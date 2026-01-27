@@ -1,5 +1,7 @@
 > Sự khác biệt này có thật hay chỉ là ngẫu nhiên
 
+> Data Science không phải là tìm p-value nhỏ,
+mà là giảm rủi ro khi ra quyết định từ dữ liệu.
 
 📊 Bảng chọn nhanh (Data Science style)
 Bài toán	Kiểm định
