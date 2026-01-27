@@ -54,7 +54,10 @@ Câu hỏi:
 - Khách VIP?
 - Hay lỗi dữ liệu?
 
-📌 Dựa vào phân phối:
+Dựa vào phân phối:
 - Outlier
 
 > 🧠 Phân phối không phải là công thức - Nó là "câu chuyện" dữ liệu đang kể
+
+--- 
+
