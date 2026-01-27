@@ -36,8 +36,9 @@ mà là giảm rủi ro khi ra quyết định từ dữ liệu.
 | | Chi-square độc lập | Hai biến phân loại | Hai biến phân loại có liên quan đến nhau hay không ? |
 | | Chi-square goodness of fit | Dữ liệu liên tục, mẫu nhỏ | Dữ liệu có phù hợp cho phân phối giả định hay không? |
 
-- **👉 Dữ liệu càng đẹp → càng nên dùng tham số**
-- **👉 Dữ liệu càng bẩn → chuyển sang phi tham số**
+**👉 Dữ liệu càng đẹp → càng nên dùng tham số**
+
+**👉 Dữ liệu càng bẩn → chuyển sang phi tham số**
 
 ---
 
