@@ -2,6 +2,7 @@
 > Khoa học dữ liệu không chỉ "đếm số liệu", mà phải "hiểu sự không chắc chắn" của dữ liệu.
 
 ## **1. Mục tiêu của việc sử dụng phân phối trong Khoa học dữ liệu**
+
 ### **1.1. Dữ liệu không bao giờ giống nhau 100%**
 
 Ví dụ: 
