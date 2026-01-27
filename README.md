@@ -22,11 +22,15 @@ Các trạng thái:
 
 | Nền tảng | Mô tả | Trạng thái |
 |------------|----------|---------|
-| **📐 Toán & Thống kê** | [Thống kê mô tả](math_statistic/descriptive_startistics/README.md) | ⭐ |
+| **📐 Toán & Thống kê** | [Đại số tuyến tính]() | ⬜ | 
+| | [Giải tích](math_statistic/descriptive_startistics/README.md) | ⬜ |
+| | [Thống kê mô tả](math_statistic/descriptive_startistics/README.md) | ⭐ |
 | | [Xác suất cơ bản](math_statistic/probability_fundamentals/README.md) | ⭐ |
 | | [Phân phối chuẩn](math_statistic/distribution/README.md) | ⭐ |
 | | [Hypothesis Testing](math_statistic/hypothesis_testing/README.md) | ⭐ |
 | | [Correlation vs Causation]() | 🟡 |
+| | [Thống kê cho Machine Learning]() | ⬜ |
+| | [Toán & Thống kê nâng cao]() | ⬜ |
 | **🐍 Python & Thư viện** | [Python cơ bản]() | ⬜ |
 | | [NumPy]() | ⬜ |
 | | [Pandas]() | ⬜ |
