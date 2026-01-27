@@ -5,7 +5,7 @@ Mục tiêu chính của kiểm định giả thuyết chính là để trả l�
 
 [Notebook](hypothesis_testing.ipynb)
 
-## 🧪 **Phân loại các kiểm định**
+## **1. Phân loại các kiểm định**
 
 > Data Science không phải là tìm p-value nhỏ,
 mà là giảm rủi ro khi ra quyết định từ dữ liệu.
@@ -41,7 +41,7 @@ mà là giảm rủi ro khi ra quyết định từ dữ liệu.
 
 ---
 
-## 🧠 **Thường dùng kiểm định khi nào?**
+## **2. Thường dùng kiểm định khi nào?**
 - A/B testing _(Z-test / t-test)_
 - Feature selection
 - Feature có khác giữa class?	_(t-test / Mann–Whitney)_
@@ -53,7 +53,7 @@ mà là giảm rủi ro khi ra quyết định từ dữ liệu.
 
 ---
 
-## 📌 **Mục tiêu của mọi kiểm định**
+## **3. Mục tiêu của mọi kiểm định**
 
 Câu hỏi cốt lõi của mọi kiểm định chỉ là:
 
