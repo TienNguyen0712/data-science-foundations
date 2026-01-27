@@ -78,3 +78,10 @@ ANOVA	Khác biệt giữa nhóm > nhiễu?
 Mann–Whitney	Nhóm nào thường lớn hơn?
 Wilcoxon	Thay đổi có xu hướng tăng/giảm?
 Kruskal–Wallis	Nhóm nào có hạng cao hơn
+
+Bài toán DS	Kiểm định
+So sánh 2 mô hình	Paired t / Wilcoxon
+A/B testing	Z-test / t-test
+So sánh nhiều nhóm người dùng	ANOVA / Kruskal–Wallis
+Kiểm tra phân phối đặc trưng	F-test
+Feature có khác giữa class?	t-test / Mann–Whitney
