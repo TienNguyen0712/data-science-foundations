@@ -1,6 +1,8 @@
 # 📘 **Xác suất cơ bản**
 > Xác suất giúp khoa học dữ liệu mô hình hóa sự không chắc chắn và ra quyết định trong điều kiện thiếu thông tin hoàn hảo
 
+[Notebook](probability_fundamentals.ipynb)
+
 ## 🎯 **Mục tiêu của xác suất**
 
 > Nếu thống kê trả lời "điều gì đã xảy ra" thì xác suất trả lời "điều gì có thể xảy ra và mức độ tin cậy là bao nhiêu"
