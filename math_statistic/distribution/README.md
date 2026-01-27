@@ -1,8 +1,8 @@
 # 📊 **Phân phối trong khoa học dữ liệu**
 > Khoa học dữ liệu không chỉ "đếm số liệu", mà phải "hiểu sự không chắc chắn" của dữ liệu.
 
-## 📌 **Mục tiêu của việc sử dụng phân phối trong Khoa học dữ liệu**
-### 1️⃣ **Dữ liệu không bao giờ giống nhau 100%**
+## **1. Mục tiêu của việc sử dụng phân phối trong Khoa học dữ liệu**
+### **1.1. Dữ liệu không bao giờ giống nhau 100%**
 
 Ví dụ: 
 - Hôm nay website có 1200 người truy cập
@@ -16,7 +16,7 @@ Ví dụ:
 
 ---
 
-### 2️⃣ **Phân phối giúp ta trả lời "bao nhiêu là nhiều / ít"**
+### **1.2. Phân phối giúp ta trả lời "bao nhiêu là nhiều / ít"**
 
 Ví dụ: 
 - Một người dùng click vảo quảng cáo 10 lần
@@ -30,13 +30,13 @@ Ví dụ:
 
 ---
 
-### 3️⃣ **Phân phối giúp mô hình hóa dữ liệu**
+### **1.3. Phân phối giúp mô hình hóa dữ liệu**
 
 Nhờ các giả định trong phân phối mà ta ước lượng tham số, dự đoán xác suất tương lai
 
 --- 
 
-### 4️⃣ **Phân phối giúp đánh giá độ tin cậy**
+### **1.4. Phân phối giúp đánh giá độ tin cậy**
 
 Đưa ra những câu hỏi:
 - Độ tin cậy lệch bao nhiêu ?
@@ -44,7 +44,7 @@ Nhờ các giả định trong phân phối mà ta ước lượng tham số, d�
 
 --- 
 
-### 5️⃣ **Phân phối giúp phát hiện bất thường**
+### **1.5. Phân phối giúp phát hiện bất thường**
 
 Ví dụ:
 - Doanh thu trung bình 2 triệu
