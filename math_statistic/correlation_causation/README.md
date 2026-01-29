@@ -5,6 +5,16 @@
 | Có thể giả       | Mang ý nghĩa hành động |
 | Dùng để khám phá | Dùng để quyết định     |
 
+## Tổng hợp bẫy 
+
+| Bẫy          | Vấn đề                       | Cách tránh             |
+| ------------ | ---------------------------- | ---------------------- |
+| Cor ≠ Cause  | Nhầm lẫn quan sát & nhân quả | Thiết kế thí nghiệm    |
+| Spurious Cor | Trùng hợp                    | Kiểm tra logic & trend |
+| Simpson      | Gộp dữ liệu sai              | Phân tích theo nhóm    |
+| Confounder   | Biến ẩn                      | Kiểm soát biến         |
+
+
 ## Cov và Cor
 
 
