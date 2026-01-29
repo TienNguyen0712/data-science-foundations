@@ -17,6 +17,13 @@ So ánh Cov avf Cor
 | So sánh    | ❌ Khó so sánh                    | ✅ So sánh trực tiếp        |
 | Dùng nhiều | Nền tảng toán học                | Phân tích thực tế          |
 
+| Quan hệ            | Covariance | Correlation |
+| ------------------ | ---------- | ----------- |
+| Tuyến tính dương   | > 0        | > 0         |
+| Tuyến tính âm      | < 0        | < 0         |
+| Phi tuyến đối xứng | ≈ 0        | ≈ 0         |
+| Không liên quan    | ≈ 0        | ≈ 0         |
+
 🔹 Hiểu bằng trực giác
 Covariance
 
