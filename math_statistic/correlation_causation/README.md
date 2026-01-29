@@ -7,6 +7,17 @@
 
 ## Cov và Cor
 
+
+| Tiêu chí           | Pearson | Spearman   | Kendall |
+| ------------------ | ------- | ---------- | ------- |
+| Tuyến tính         | ✔️      | ❌          | ❌       |
+| Đơn điệu           | ❌       | ✔️         | ✔️      |
+| Outlier            | Nhạy    | Ít nhạy    | Rất ít  |
+| Ordinal            | ❌       | ✔️         | ✔️      |
+| Mẫu nhỏ            | ❌       | Trung bình | ✔️      |
+| Diễn giải xác suất | ❌       | ❌          | ✔️      |
+
+
 So ánh Cov avf Cor
 
 | Tiêu chí   | **Cov (Covariance)**             | **Cor (Correlation)**      |
