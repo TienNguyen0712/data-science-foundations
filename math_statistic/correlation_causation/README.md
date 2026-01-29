@@ -5,7 +5,7 @@
 
 ## **1. Pearson Correlation (Tuyến tính)**
 
-Định nghĩa là Corr đo mức độ tuyến tính hai biến liên tục
+Là Corr đo mức độ tuyến tính hai biến liên tục
 
 ---
 
