@@ -1,72 +1,26 @@
-Giới hạn của Correlation trong Machine Learning
-🚧 (1) Chỉ đo tuyến tính
+# 📘 **Correlation (Tương quan)**
 
-Bỏ sót quan hệ phi tuyến
+## **1. Pearson Correlation (Tuyến tính)**
 
-Tree-based models không cần Cor cao
+Định nghĩa là Corr đo mức độ tuyến tính hai biến liên tục
 
-🚧 (2) Không phản ánh tương tác feature
+## **2. Spearman Correlation (Phi tuyến)**
 
-X₁ * X₂ có thể quan trọng
+Đo mối quan hệ đơn điệu 
 
-Nhưng Cor(X₁, y), Cor(X₂, y) đều thấp
+> Khi x tăng Y có xu hướng tăng hoặc giảm, không cần tuyến tính
 
-🚧 (3) Nhạy với outlier
+## **3. Kendall's Tau**
 
-Dữ liệu thực tế → rất nguy hiểm
+Kendall đo xác suất hai biến cùng "đồng thuận" về thứ tự.
 
-🚧 (4) Không gắn với performance
+## **4. Partial Correlation**
 
-Feature Cor cao ≠ improve accuracy
+Đo mối liên hệ giữa X và Y sau khi đã loại bỏ một vài ảnh hưởng cảu một (hoặc nhiều) biến kiểm soát Z
 
-Feature Cor thấp ≠ vô dụng
+> Nếu giữ Z khổng đổi, X và Y còn liên quan với nhau không?
 
-🚧 (5) Không nói gì về nhân quả
-
-ML dự đoán tốt ≠ hiểu đúng thế giới
-
----
-
-Khi nào NÊN / KHÔNG NÊN dùng Cor trong ML
-✅ NÊN
-
-EDA ban đầu
-
-Linear models
-
-Giảm feature trùng lặp
-
-Phát hiện multicollinearity
-
-❌ KHÔNG NÊN
-
-Là tiêu chí chọn feature duy nhất
-
-Áp dụng mù quáng cho phi tuyến
-
-Diễn giải như nhân quả
-
----
-
-| Correlation      | Causation              |
-| ---------------- | ---------------------- |
-| Quan sát         | Can thiệp              |
-| Dễ tính          | Khó chứng minh         |
-| Có thể giả       | Mang ý nghĩa hành động |
-| Dùng để khám phá | Dùng để quyết định     |
-
-## Tổng hợp bẫy 
-
-| Bẫy          | Vấn đề                       | Cách tránh             |
-| ------------ | ---------------------------- | ---------------------- |
-| Cor ≠ Cause  | Nhầm lẫn quan sát & nhân quả | Thiết kế thí nghiệm    |
-| Spurious Cor | Trùng hợp                    | Kiểm tra logic & trend |
-| Simpson      | Gộp dữ liệu sai              | Phân tích theo nhóm    |
-| Confounder   | Biến ẩn                      | Kiểm soát biến         |
-
-
-## Cov và Cor
-
+So sánh các tương quan 
 
 | Tiêu chí           | Pearson | Spearman   | Kendall |
 | ------------------ | ------- | ---------- | ------- |
@@ -77,8 +31,41 @@ Diễn giải như nhân quả
 | Mẫu nhỏ            | ❌       | Trung bình | ✔️      |
 | Diễn giải xác suất | ❌       | ❌          | ✔️      |
 
+## **So sánh Corr và Cov**
 
-So ánh Cov avf Cor
+Các tiêu chí lựa chọn Corr và Cov
+
+| Tiêu chí   | **Cov (Covariance)**             | **Cor (Correlation)**      |
+| ---------- | -------------------------------- | -------------------------- |
+| Đo cái gì  | Hai biến **biến động cùng nhau** | **Mức độ & chiều** liên hệ |
+| Giá trị    | (-\infty \rightarrow +\infty)    | **[-1, 1]**                |
+| Đơn vị     | **Có đơn vị** (X·Y)              | **Không đơn vị**           |
+| So sánh    | ❌ Khó so sánh                    | ✅ So sánh trực tiếp        |
+| Dùng nhiều | Nền tảng toán học                | Phân tích thực tế          |
+| Câu hỏi | X và Y có cùng lệch khỏi trung bình không? | Mối quan hệ mạnh đến mức nào? |
+| Đặc điểm | X và Y có cùng lệch khỏi trung bình không? | Mối quan hệ mạnh đến mức nào? |
+| | Chỉ quan tâm cùng chiều hay ngược chiều | Chuẩn hóa → dễ hiểu |
+| | Không nói rõ mạnh hay yếu | Có dấu |
+| Dùng khi | Học lý thuyết thống kê | Khám phá dữ liệu (EDA) |
+|  | Làm PCA / multivariate statistics | So sánh mối quan hệ |
+|  | Làm nền cho correlation, regression | Trình bày cho người khác |
+
+**Giả sử:**
+- X = chiều cao (cm)
+- Y = cân nặng (kg)
+  - Cov(X,Y) = 120 ❓ → 120 là nhiều hay ít? (khó nói)
+  - Cor(X,Y) = 0.8 ✅ → liên hệ mạnh
+
+### **Tổng hợp bẫy hay gặp trong Correlation**
+
+| Bẫy          | Vấn đề                       | Cách tránh             |
+| ------------ | ---------------------------- | ---------------------- |
+| Cor ≠ Cause  | Nhầm lẫn quan sát & nhân quả | Thiết kế thí nghiệm    |
+| Spurious Cor | Trùng hợp                    | Kiểm tra logic & trend |
+| Simpson      | Gộp dữ liệu sai              | Phân tích theo nhóm    |
+| Confounder   | Biến ẩn                      | Kiểm soát biến         |
+
+
 
 | Cách                     | Khi nào dùng                    |
 | ------------------------ | ------------------------------- |
@@ -88,69 +75,34 @@ So ánh Cov avf Cor
 | Xử lý outlier            | Winsorize, trim, robust methods |
 
 
-| Tiêu chí   | **Cov (Covariance)**             | **Cor (Correlation)**      |
-| ---------- | -------------------------------- | -------------------------- |
-| Đo cái gì  | Hai biến **biến động cùng nhau** | **Mức độ & chiều** liên hệ |
-| Giá trị    | (-\infty \rightarrow +\infty)    | **[-1, 1]**                |
-| Đơn vị     | **Có đơn vị** (X·Y)              | **Không đơn vị**           |
-| So sánh    | ❌ Khó so sánh                    | ✅ So sánh trực tiếp        |
-| Dùng nhiều | Nền tảng toán học                | Phân tích thực tế          |
+Giới hạn của Correlation trong Machine Learning
+🚧 (1) Chỉ đo tuyến tính
+🚧 (2) Không phản ánh tương tác feature
+🚧 (3) Nhạy với outlier
+🚧 (4) Không gắn với performance
+🚧 (5) Không nói gì về nhân quả
 
-| Quan hệ            | Covariance | Correlation |
-| ------------------ | ---------- | ----------- |
-| Tuyến tính dương   | > 0        | > 0         |
-| Tuyến tính âm      | < 0        | < 0         |
-| Phi tuyến đối xứng | ≈ 0        | ≈ 0         |
-| Không liên quan    | ≈ 0        | ≈ 0         |
+---
 
-🔹 Hiểu bằng trực giác
-Covariance
+Khi nào NÊN / KHÔNG NÊN dùng Cor trong ML
 
-“X và Y có cùng lệch khỏi trung bình không?”
+| ✅ NÊN                | ❌ KHÔNG NÊN                   |
+| ------------------------ | ------------------------------- |
+| EDA ban đầu | Là tiêu chí chọn feature duy nhất    |
+| Linear models       | Áp dụng mù quáng cho phi tuyến                       |
+| Giảm feature trùng lặp             | Diễn giải như nhân quả            |
+| Phát hiện multicollinearity            |  |
 
-Chỉ quan tâm cùng chiều hay ngược chiều
+---
 
-Không nói rõ mạnh hay yếu
+| Correlation      | Causation              |
+| ---------------- | ---------------------- |
+| Quan sát         | Can thiệp              |
+| Dễ tính          | Khó chứng minh         |
+| Có thể giả       | Mang ý nghĩa hành động |
+| Dùng để khám phá | Dùng để quyết định     |
 
-Correlation
 
-“Mối quan hệ mạnh đến mức nào?”
-
-Chuẩn hóa → dễ hiểu
-
--1: ngược chiều hoàn hảo
-
-0: không tuyến tính
-
-1: cùng chiều hoàn hảo
-
-Ví dụ 
-
-Giả sử:
-
-X = chiều cao (cm)
-
-Y = cân nặng (kg)
-
-Cov(X,Y) = 120 ❓ → 120 là nhiều hay ít? (khó nói)
-
-Cor(X,Y) = 0.8 ✅ → liên hệ mạnh
-
-✅ Dùng Cov khi:
-
-Học lý thuyết thống kê
-
-Làm PCA / multivariate statistics
-
-Làm nền cho correlation, regression
-
-✅ Dùng Cor khi:
-
-Khám phá dữ liệu (EDA)
-
-So sánh mối quan hệ
-
-Trình bày cho người khác
 
 ## Correlation vs Causation
 
