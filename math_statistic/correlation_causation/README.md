@@ -20,6 +20,14 @@
 
 So ánh Cov avf Cor
 
+| Cách                     | Khi nào dùng                    |
+| ------------------------ | ------------------------------- |
+| **Spearman Correlation** | Quan hệ đơn điệu, có outlier    |
+| **Kendall’s tau**        | Mẫu nhỏ                         |
+| Scatter plot             | Luôn luôn nên vẽ                |
+| Xử lý outlier            | Winsorize, trim, robust methods |
+
+
 | Tiêu chí   | **Cov (Covariance)**             | **Cor (Correlation)**      |
 | ---------- | -------------------------------- | -------------------------- |
 | Đo cái gì  | Hai biến **biến động cùng nhau** | **Mức độ & chiều** liên hệ |
