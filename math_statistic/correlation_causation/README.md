@@ -4,15 +4,21 @@
 
 Định nghĩa là Corr đo mức độ tuyến tính hai biến liên tục
 
+---
+
 ## **2. Spearman Correlation (Phi tuyến)**
 
 Đo mối quan hệ đơn điệu 
 
 > Khi x tăng Y có xu hướng tăng hoặc giảm, không cần tuyến tính
 
+---
+
 ## **3. Kendall's Tau**
 
 Kendall đo xác suất hai biến cùng "đồng thuận" về thứ tự.
+
+---
 
 ## **4. Partial Correlation**
 
@@ -31,7 +37,9 @@ So sánh các tương quan
 | Mẫu nhỏ            | ❌       | Trung bình | ✔️      |
 | Diễn giải xác suất | ❌       | ❌          | ✔️      |
 
-## **So sánh Corr và Cov**
+---
+
+### **So sánh Corr và Cov**
 
 Các tiêu chí lựa chọn Corr và Cov
 
@@ -56,6 +64,8 @@ Các tiêu chí lựa chọn Corr và Cov
   - Cov(X,Y) = 120 ❓ → 120 là nhiều hay ít? (khó nói)
   - Cor(X,Y) = 0.8 ✅ → liên hệ mạnh
 
+---
+
 ### **Tổng hợp bẫy hay gặp trong Correlation**
 
 | Bẫy          | Vấn đề                       | Cách tránh             |
@@ -66,7 +76,7 @@ Các tiêu chí lựa chọn Corr và Cov
 | Confounder   | Biến ẩn                      | Kiểm soát biến         |
 
 
-
+Các cách để né các bẫy
 | Cách                     | Khi nào dùng                    |
 | ------------------------ | ------------------------------- |
 | **Spearman Correlation** | Quan hệ đơn điệu, có outlier    |
@@ -76,15 +86,15 @@ Các tiêu chí lựa chọn Corr và Cov
 
 
 Giới hạn của Correlation trong Machine Learning
-🚧 (1) Chỉ đo tuyến tính
-🚧 (2) Không phản ánh tương tác feature
-🚧 (3) Nhạy với outlier
-🚧 (4) Không gắn với performance
-🚧 (5) Không nói gì về nhân quả
+-  (1) Chỉ đo tuyến tính
+-  (2) Không phản ánh tương tác feature
+-  (3) Nhạy với outlier
+-  (4) Không gắn với performance
+-  (5) Không nói gì về nhân quả
 
 ---
 
-Khi nào NÊN / KHÔNG NÊN dùng Cor trong ML
+### **Khi nào NÊN / KHÔNG NÊN dùng Cor trong ML**
 
 | ✅ NÊN                | ❌ KHÔNG NÊN                   |
 | ------------------------ | ------------------------------- |
