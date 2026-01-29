@@ -25,7 +25,7 @@ Feature Cor thấp ≠ vô dụng
 
 ML dự đoán tốt ≠ hiểu đúng thế giới
 
---
+---
 
 | Correlation      | Causation              |
 | ---------------- | ---------------------- |
