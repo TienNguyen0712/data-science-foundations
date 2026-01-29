@@ -27,6 +27,27 @@ ML dự đoán tốt ≠ hiểu đúng thế giới
 
 ---
 
+Khi nào NÊN / KHÔNG NÊN dùng Cor trong ML
+✅ NÊN
+
+EDA ban đầu
+
+Linear models
+
+Giảm feature trùng lặp
+
+Phát hiện multicollinearity
+
+❌ KHÔNG NÊN
+
+Là tiêu chí chọn feature duy nhất
+
+Áp dụng mù quáng cho phi tuyến
+
+Diễn giải như nhân quả
+
+---
+
 | Correlation      | Causation              |
 | ---------------- | ---------------------- |
 | Quan sát         | Can thiệp              |
