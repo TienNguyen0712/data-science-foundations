@@ -65,3 +65,19 @@ Khám phá dữ liệu (EDA)
 So sánh mối quan hệ
 
 Trình bày cho người khác
+
+## Correlation vs Causation
+
+Khi nào dùng correlation
+
+Khi nào cần causation
+
+Vì sao ML thường chỉ học correlation
+
+Luôn vẽ DAG trước khi phân tích
+
+Không tin regression mù quáng
+
+Ưu tiên thí nghiệm nếu có thể
+
+Luôn hỏi: “Nếu tôi can thiệp thì sao?”
