@@ -1,3 +1,32 @@
+Giới hạn của Correlation trong Machine Learning
+🚧 (1) Chỉ đo tuyến tính
+
+Bỏ sót quan hệ phi tuyến
+
+Tree-based models không cần Cor cao
+
+🚧 (2) Không phản ánh tương tác feature
+
+X₁ * X₂ có thể quan trọng
+
+Nhưng Cor(X₁, y), Cor(X₂, y) đều thấp
+
+🚧 (3) Nhạy với outlier
+
+Dữ liệu thực tế → rất nguy hiểm
+
+🚧 (4) Không gắn với performance
+
+Feature Cor cao ≠ improve accuracy
+
+Feature Cor thấp ≠ vô dụng
+
+🚧 (5) Không nói gì về nhân quả
+
+ML dự đoán tốt ≠ hiểu đúng thế giới
+
+--
+
 | Correlation      | Causation              |
 | ---------------- | ---------------------- |
 | Quan sát         | Can thiệp              |
