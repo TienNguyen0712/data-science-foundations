@@ -1,4 +1,4 @@
-# 📘 **Correlation (Tương quan)**
+# 🔗 **Correlation (Tương quan)**
 > Đo lường mức độ và chiều hướng mà hai biến thay đổi cùng nhau.
 
 [Notebook](correlation_causation.ipynb)
