@@ -22,7 +22,7 @@ Các trạng thái:
 
 | Nền tảng | Mô tả | Trạng thái |
 |------------|----------|---------|
-| **📐 Toán & Thống kê** | [Đại số tuyến tính]() | ⬜ | 
+| **📐 Toán & Thống kê** | [Đại số tuyến tính]() | 🟡 | 
 | | [Giải tích](math_statistic/descriptive_startistics/README.md) | ⬜ |
 | | [Thống kê mô tả](math_statistic/descriptive_startistics/README.md) | ⭐ |
 | | [Xác suất cơ bản](math_statistic/probability_fundamentals/README.md) | ⭐ |
